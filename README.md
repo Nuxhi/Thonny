@@ -30,6 +30,7 @@
 
 
 We thank all contributors as well as the great work done by the PaperMC team followed by all plugin developers :
+
 Thanks : [contributeurs](https://github.com/Nuxhi/Tuna/contributors)
 Thanks : https://github.com/PaperMC
 
