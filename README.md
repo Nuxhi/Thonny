@@ -7,14 +7,14 @@
 [![forthebadge](http://forthebadge.com/images/badges/0-percent-optimized.svg)](https://github.com/Nuxhi)
 
 
-[🪐] **Information utile : **
+[🪐] **Information utile :**
 
 > - **Thonny est actuellement dans une version de développement.**
 > - Thonny tourne sur la Version 1.19 de Minecraft.
 > - Thonny utilise le framework 1.19.81 de PaperMC.
 
 
-[🔑] ** accès : **
+[🔑] ** accès :**
 
 > - télécharger les fichiers prérequis du serveur coté serveur mais aussi coté client.
 
