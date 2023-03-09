@@ -14,7 +14,7 @@
 > - Thonny utilise le framework 1.19.81 de PaperMC.
 
 
-[🔑] **Acces : **
+[🔑] ** accès : **
 
 > - télécharger les fichiers prérequis du serveur coté serveur mais aussi coté client.
 
