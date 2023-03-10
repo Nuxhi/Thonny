@@ -1,12 +1,14 @@
 /* IMPORTS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.cdnfonts.com/css/aktiv-grotesk-cd-trial');
 
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Aktiv Grotesk Trial', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -45,7 +47,37 @@ body{
         left: 10px;
     }
 }
+/* --------- */
+/* ANIMATIONS KEYFRAMES */
+@keyframes steveAnim{
+    0%{
+        transform: translateY(0px) translateX(0px);
+        /* transform: translateX(0px); */
+    }
+    100%{
+        transform: translateY(10px) translateX(10px);
+        /* transform: translateX(40px); */
+    }
+}
 
+@keyframes popup{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fadeBottom {
+    0%{
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 
 /*  */
 .responsive{
@@ -56,7 +88,7 @@ body{
 .responsive nav{
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: 70px;
     display: flex;
     /* justify-content: center; */
     background-color: rgb(255, 255, 255);
@@ -69,7 +101,7 @@ body{
     margin: 30px;
     font-weight: 600;
     letter-spacing: 1px;
-    top: 0px;
+    bottom: 10px;
     font-size: 24px;
 }
 
@@ -94,13 +126,14 @@ nav a::after{
     position: fixed;
     left: 10px;
 } */
-.h2home {
+.h2home{
     position: absolute;
     top: 30%;
     left: 60px;
     font-size: 28px;
     font-weight: bold;
     font-style: italic;
+    animation: popup 3s ease;
 }
 .h1home{
     position: absolute;
@@ -108,6 +141,7 @@ nav a::after{
     left: 60px;
     font-size: 60px;
     font-weight: bold;
+    animation: popup 3s ease;
 }
 .buttonPlay {
     position: absolute;
@@ -122,6 +156,7 @@ nav a::after{
     height: 60px;
     cursor: pointer;
     font-weight: bold;
+    animation: fadeBottom 2s ease   ;
 }
 
 .buttonHow{
@@ -137,11 +172,42 @@ nav a::after{
     height: 50px;
     cursor: pointer;
     font-weight: bold;
+    animation: fadeBottom 2s ease;
 }
+
 .imgLosange{
     position: relative;
     top: 150px;
-    left: 500px;
+    left: 40%;
     width: 650px;
     height: 600px;
+    user-select: none;
+    animation: steveAnim 2.5s infinite alternate;
+}
+.box-p2{
+    position: absolute;
+    background-color: black;
+    top: 155%;
+    width: 100%;
+    height: 500px;
+}
+.txt-p2{
+    color: black;
+    position: relative;
+    top: 1100px;
+    user-select: none;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+    right: 300px;
+}
+#gros{
+    font-size: 70px;
+    
+}
+#fondu{
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    top: 120%;
 }
