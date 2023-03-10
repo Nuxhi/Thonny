@@ -1,0 +1,147 @@
+/* IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+/* MEDIA RESPONSIVE */
+
+@media screen and (min-width:41px) {
+    .responsive {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .responsive nav a{
+        font-size: 18px;
+        margin: 15px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width:388px){
+    .responsive {
+        font-size: 26px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    .responsive nav a{
+        font-size: 14px;
+        margin: 15px;
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+/*  */
+.responsive{
+    width: 100%;
+    height: 100%;
+}
+
+.responsive nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+}
+.responsive nav a{
+    position: relative;
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    top: 0px;
+    font-size: 24px;
+}
+
+/* nav a:hover{
+    color: rgb(2, 212, 2);
+    transition: color 0.3s ease-in-out;
+} */
+nav a:hover::after{
+    width: 100%;
+}
+
+nav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background: rgb(2, 212, 2);
+    transition: width 0.2s ease-in-out;
+}
+/* #left {
+    position: fixed;
+    left: 10px;
+} */
+.h2home {
+    position: absolute;
+    top: 30%;
+    left: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+}
+.h1home{
+    position: absolute;
+    top: 35%;
+    left: 60px;
+    font-size: 60px;
+    font-weight: bold;
+}
+.buttonPlay {
+    position: absolute;
+    top: 48%;
+    left: 60px;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #249a4b;
+    color: #d7f8ba;
+    width: 350px;
+    height: 60px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonHow{
+    position: absolute;
+    top: 48.5%;
+    left: 22%;
+    font-size: 30px;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #d7f8ba;
+    color: #249a4b;
+    width: 330px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.imgLosange{
+    position: relative;
+    top: 150px;
+    left: 500px;
+    width: 650px;
+    height: 600px;
+}
