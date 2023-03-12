@@ -10,8 +10,8 @@
 [🪐] **Information utile :**
 
 > - **Thonny est actuellement dans une version de développement.**
-> - Thonny tourne sur la Version 1.19 de Minecraft.
-> - Thonny utilise le framework 1.19.81 de PaperMC.
+> - Thonny tourne sur la Version 1.19.2 de Minecraft.
+> - Thonny utilise le framework 1.19.2-307 de PaperMC.
 
 
 [🔑] **accès :**
