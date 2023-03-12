@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1678652232821
+  login: 1678652200965
+money: '0'
+last-account-name: Nuxhi
+logoutlocation:
+  world: 0aa701ff-7259-4d15-833b-fc34d9d7f0d1
+  world-name: world
+  x: 14.069630000478462
+  y: 73.0
+  z: 103.96014034925275
+  yaw: 104.06886291503906
+  pitch: 3.6079635620117188
